@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ficha de Película - Sistema de Control</title>
+</head>
+<body>
+
+    <center>
+        <h1>DETALLE DE LA PELÍCULA</h1>
+        <hr width="80%">
+    </center>
+
+    <table align="center" width="80%" border="0">
+        <tr>
+            <td width="30%" valign="top">
+                <img src="poster_placeholder.jpg" alt="Portada de Película" width="200" border="1">
+                <br>
+                <p><b>ID del Sistema:</b> 177572</p>
+            </td>
+
+            <td width="70%" valign="top">
+                <h2>Título de la Película (2026)</h2>
+                
+                <h3>Sinopsis</h3>
+                <p>
+                    Aquí se insertará el texto que obtengas de tu base de datos o API. 
+                    Es un resumen básico de la trama.
+                </p>
+
+                <hr>
+
+                <h3>Datos Técnicos</h3>
+                <table border="1" width="100%" cellpadding="5">
+                    <tr>
+                        <th align="left">Director:</th>
+                        <td>Nombre del Director</td>
+                    </tr>
+                    <tr>
+                        <th align="left">Género:</th>
+                        <td>Acción / Suspenso</td>
+                    </tr>
+                    <tr>
+                        <th align="left">Calificación:</th>
+                        <td>8.5 / 10</td>
+                    </tr>
+                    <tr>
+                        <th align="left">Duración:</th>
+                        <td>120 min</td>
+                    </tr>
+                </table>
+
+                <br>
+                <p><b>Reparto Principal:</b> Actor 1, Actor 2, Actor 3.</p>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <hr width="80%">
+    <center>
+        <p><small>Generado por el Módulo de Carga - Ingeniería en Sistemas</small></p>
+        <a href="index.html">Volver al listado</a>
+    </center>
+
+</body>
+</html>
